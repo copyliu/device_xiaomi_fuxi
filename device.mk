@@ -256,7 +256,8 @@ PRODUCT_PACKAGES += \
     TelephonyOverlayCommon \
     FrameworkResOverlayFuxi \
     SystemUIOverlayFuxi \
-    SettingsOverlayFuxi
+    SettingsOverlayFuxi \
+    WifiOverlayFuxi
 
 # Partitions
 PRODUCT_PACKAGES += \
