@@ -14,6 +14,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/fuxi/device.mk)
 
+$(call inherit-product, vendor/bcr/bcr.mk)
+
 # Inherit from Gapps
 $(call inherit-product, vendor/google/gms/config.mk)
 WITH_GMS := true
