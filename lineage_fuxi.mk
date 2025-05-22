@@ -18,6 +18,9 @@ $(call inherit-product, vendor/bcr/bcr.mk)
 
 # Inherit from Gapps
 $(call inherit-product, vendor/google/gms/config.mk)
+
+$(call inherit-product, vendor/bcr/bcr.mk)
+
 WITH_GMS := true
 
 ## Device identifier
